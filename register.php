@@ -118,7 +118,7 @@ if (isset($_SESSION["user"])) {
   <div class="forgot">
     <label><input type="checkbox">I agree to the terms & conditions</label>
 </div>
-<button type="submit" >Register</button>
+<button type="submit" class="form-control" name="submit" >Register</button>
               <div class="register">
                 <p>Already have an account?
                   <a href="login.php" class="login-link">Login</a>
